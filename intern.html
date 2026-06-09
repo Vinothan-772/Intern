@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intern Project Showcase</title>
+    <style>
+        /* CSS styling for a modern, clean look */
+        :root {
+            --primary-color: #0056b3;
+            --text-color: #333;
+            --bg-color: #f8f9fa;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--bg-color);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .feature-card {
+            background: var(--bg-color);
+            padding: 1.5rem;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>My Internship Project</h1>
+        <p>Building solutions for tomorrow, today.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#details">Project Details</a>
+        <a href="#technologies">Technologies</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        
+        <!-- About Section -->
+        <section id="about">
+            <h2>About the Internship</h2>
+            <p>Welcome to my project showcase! Over the past few months, I have been working as a Software Engineering Intern to develop a new tool that streamlines our internal data processing workflows. This page highlights the goals, challenges, and successes of my project.</p>
+        </section>
+
+        <!-- Project Details Section -->
+        <section id="details">
+            <h2>Project Overview</h2>
+            <p>The primary objective of this project was to reduce manual data entry by 40% through automation. Here are some of the key features that were implemented:</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Automated Parsing</h3>
+                    <p>Extracts essential data fields from incoming reports instantly.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Real-time Dashboard</h3>
+                    <p>Provides a visual representation of processed data for stakeholders.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Secure API</h3>
+                    <p>Integrates with existing company services using secure RESTful endpoints.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technologies Section -->
+        <section id="technologies">
+            <h2>Technologies Used</h2>
+            <ul>
+                <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript</li>
+                <li><strong>Backend:</strong> Python, Flask</li>
+                <li><strong>Database:</strong> PostgreSQL</li>
+                <li><strong>Version Control:</strong> Git & GitHub</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 [Your Name]. Created for the [Company Name] Internship Program.</p>
+    </footer>
+
+</body>
+</html>
